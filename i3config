@@ -288,6 +288,8 @@ exec --no-startup-id feh --bg-scale /home/jiwidi/Downloads/wp/lake.jpg
 bar {
 	status_command i3status
 	position bottom
+	mode hide
+	hidden_state hide
 ## please set your primary output first. Example: 'xrandr --output eDP1 --primary'
 #	tray_output primary
 #	tray_output eDP1
@@ -310,7 +312,6 @@ bar {
 		urgent_workspace  #AAAAAA #e60000 #ffffff
 	}
 }
-
 # hide/unhide i3status bar
 bindsym $mod+m bar mode toggle
 # define color
